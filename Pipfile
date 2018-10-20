@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+"iso6709" = "*"
+mypy = "*"
+"flake8" = "*"
+pytest = "*"
+pytest-hammertime = "*"
+"flake8-import-order" = "*"
+"flake8-per-file-ignores" = "*"
+twine = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+check = "sh -c 'mypy . && flake8 . && pytest -q'"
+bundle = "python setup.py sdist bdist_wheel"
+sweep = "rm -fr build dist iana_tz_coord.egg-info"
+deploy = "twine upload dist/*"
