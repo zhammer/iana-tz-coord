@@ -143,6 +143,10 @@ COORDINATES_BY_TZ_NAME = {
     'America/Moncton': Coordinates(latitude=46.1, longitude=-64.78333333333333),
     'America/Monterrey': Coordinates(latitude=25.666666666666668, longitude=-100.31666666666666),
     'America/Montevideo': Coordinates(latitude=-34.909166666666664, longitude=-56.2125),
+
+    # Manually added
+    'America/Montreal': Coordinates(latitude=45.5017, longitude=-73.5673),
+
     'America/Nassau': Coordinates(latitude=25.083333333333332, longitude=-77.35),
     'America/New_York': Coordinates(latitude=40.714166666666664, longitude=-74.00638888888889),
     'America/Nipigon': Coordinates(latitude=49.016666666666666, longitude=-88.26666666666667),

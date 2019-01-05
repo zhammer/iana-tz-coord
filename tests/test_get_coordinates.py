@@ -45,6 +45,14 @@ class TestGetCoordinates(object):
         )
         assert coordinates == expected_coordinates
 
+    def test_returns_coordinates_for_america_montreal(self) -> None:
+        coordinates = get_coordinates('America/Montreal')
+        expected_coordinates = Coordinates(
+            latitude=45.5017,
+            longitude=-73.5673
+        )
+        assert coordinates == expected_coordinates
+
     @pytest.mark.parametrize('iana_tz_name_with_prefix', IANA_TZS_WITH_EXTRA_PREFIX)  # type: ignore
     def test_can_ignore_special_iana_prefix(self, iana_tz_name_with_prefix: str) -> None:
         iana_tz_name_without_prefix = _remove_extra_iana_prefix(iana_tz_name_with_prefix)
