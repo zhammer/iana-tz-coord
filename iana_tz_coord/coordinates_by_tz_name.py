@@ -36,6 +36,22 @@ COORDINATES_BY_TZ_NAME = {
     'America/Argentina/San_Luis': Coordinates(latitude=-33.31666666666667, longitude=-66.35),
     'America/Argentina/Tucuman': Coordinates(latitude=-26.816666666666666, longitude=-65.21666666666667),
     'America/Argentina/Ushuaia': Coordinates(latitude=-54.8, longitude=-68.3),
+
+    # Without '/Argentina/' prefix
+    'America/Buenos_Aires': Coordinates(latitude=-34.6, longitude=-58.45),
+    'America/Catamarca': Coordinates(latitude=-28.466666666666665, longitude=-65.78333333333333),
+    'America/Cordoba': Coordinates(latitude=-31.4, longitude=-64.18333333333334),
+    'America/Jujuy': Coordinates(latitude=-24.183333333333334, longitude=-65.3),
+    'America/La_Rioja': Coordinates(latitude=-29.433333333333334, longitude=-66.85),
+    'America/Mendoza': Coordinates(latitude=-32.88333333333333, longitude=-68.81666666666666),
+    'America/Rio_Gallegos': Coordinates(latitude=-51.63333333333333, longitude=-69.21666666666667),
+    'America/Salta': Coordinates(latitude=-24.783333333333335, longitude=-65.41666666666667),
+    'America/San_Juan': Coordinates(latitude=-31.533333333333335, longitude=-68.51666666666667),
+    'America/San_Luis': Coordinates(latitude=-33.31666666666667, longitude=-66.35),
+    'America/Tucuman': Coordinates(latitude=-26.816666666666666, longitude=-65.21666666666667),
+    'America/Ushuaia': Coordinates(latitude=-54.8, longitude=-68.3),
+    # / Without '/Argentina/' prefix
+
     'America/Asuncion': Coordinates(latitude=-25.266666666666666, longitude=-57.666666666666664),
     'America/Atikokan': Coordinates(latitude=48.75861111111111, longitude=-91.62166666666667),
     'America/Bahia': Coordinates(latitude=-12.983333333333333, longitude=-38.516666666666666),
@@ -86,12 +102,30 @@ COORDINATES_BY_TZ_NAME = {
     'America/Indiana/Vevay': Coordinates(latitude=38.74777777777778, longitude=-85.06722222222223),
     'America/Indiana/Vincennes': Coordinates(latitude=38.67722222222222, longitude=-87.5286111111111),
     'America/Indiana/Winamac': Coordinates(latitude=41.05138888888889, longitude=-86.60305555555556),
+
+    # Without '/Indiana/' prefix
+    'America/Indianapolis': Coordinates(latitude=39.76833333333333, longitude=-86.15805555555555),
+    'America/Knox': Coordinates(latitude=41.295833333333334, longitude=-86.625),
+    'America/Marengo': Coordinates(latitude=38.37555555555556, longitude=-86.34472222222222),
+    'America/Petersburg': Coordinates(latitude=38.49194444444444, longitude=-87.2786111111111),
+    'America/Tell_City': Coordinates(latitude=37.95305555555556, longitude=-86.76138888888889),
+    'America/Vevay': Coordinates(latitude=38.74777777777778, longitude=-85.06722222222223),
+    'America/Vincennes': Coordinates(latitude=38.67722222222222, longitude=-87.5286111111111),
+    'America/Winamac': Coordinates(latitude=41.05138888888889, longitude=-86.60305555555556),
+    # / Without '/Indiana/' prefix
+
     'America/Inuvik': Coordinates(latitude=68.34972222222223, longitude=-133.71666666666667),
     'America/Iqaluit': Coordinates(latitude=63.733333333333334, longitude=-68.46666666666667),
     'America/Jamaica': Coordinates(latitude=17.968055555555555, longitude=-76.79333333333334),
     'America/Juneau': Coordinates(latitude=58.301944444444445, longitude=-134.41972222222222),
     'America/Kentucky/Louisville': Coordinates(latitude=38.25416666666667, longitude=-85.75944444444444),
     'America/Kentucky/Monticello': Coordinates(latitude=36.82972222222222, longitude=-84.84916666666666),
+
+    # Without '/Kentucky/' prefix
+    'America/Louisville': Coordinates(latitude=38.25416666666667, longitude=-85.75944444444444),
+    'America/Monticello': Coordinates(latitude=36.82972222222222, longitude=-84.84916666666666),
+    # / Without '/Kentucky/' prefix
+
     'America/La_Paz': Coordinates(latitude=-16.5, longitude=-68.15),
     'America/Lima': Coordinates(latitude=-12.05, longitude=-77.05),
     'America/Los_Angeles': Coordinates(latitude=34.05222222222222, longitude=-118.24277777777777),
@@ -117,6 +151,13 @@ COORDINATES_BY_TZ_NAME = {
     'America/North_Dakota/Beulah': Coordinates(latitude=47.26416666666667, longitude=-101.77777777777777),
     'America/North_Dakota/Center': Coordinates(latitude=47.11638888888889, longitude=-101.29916666666666),
     'America/North_Dakota/New_Salem': Coordinates(latitude=46.845, longitude=-101.41083333333333),
+
+    # Without '/North_Dakota/' prefix
+    'America/Beulah': Coordinates(latitude=47.26416666666667, longitude=-101.77777777777777),
+    'America/Center': Coordinates(latitude=47.11638888888889, longitude=-101.29916666666666),
+    'America/New_Salem': Coordinates(latitude=46.845, longitude=-101.41083333333333),
+    # / Without '/North_Dakota/' prefix
+
     'America/Ojinaga': Coordinates(latitude=29.566666666666666, longitude=-104.41666666666667),
     'America/Panama': Coordinates(latitude=8.966666666666667, longitude=-79.53333333333333),
     'America/Pangnirtung': Coordinates(latitude=66.13333333333334, longitude=-65.73333333333333),
