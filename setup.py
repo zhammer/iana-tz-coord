@@ -7,7 +7,7 @@ with open('README.md', 'r') as readme:
 
 setup(
     name='iana-tz-coord',
-    version='1.0.2',
+    version='1.0.3',
     description='Get the longitude and latitude of an iana timezone\'s principal location',
     url='https://github.com/zhammer/iana-tz-coord',
     packages=('iana_tz_coord',),
