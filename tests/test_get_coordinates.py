@@ -11,27 +11,9 @@ IANA_TZS_WITH_EXTRA_PREFIX: List[str] = [
     'America/Argentina/Catamarca',
     'America/Argentina/Cordoba',
     'America/Argentina/Jujuy',
-    'America/Argentina/La_Rioja',
     'America/Argentina/Mendoza',
-    'America/Argentina/Rio_Gallegos',
-    'America/Argentina/Salta',
-    'America/Argentina/San_Juan',
-    'America/Argentina/San_Luis',
-    'America/Argentina/Tucuman',
-    'America/Argentina/Ushuaia',
     'America/Indiana/Indianapolis',
-    'America/Indiana/Knox',
-    'America/Indiana/Marengo',
-    'America/Indiana/Petersburg',
-    'America/Indiana/Tell_City',
-    'America/Indiana/Vevay',
-    'America/Indiana/Vincennes',
-    'America/Indiana/Winamac',
-    'America/Kentucky/Louisville',
-    'America/Kentucky/Monticello',
-    'America/North_Dakota/Beulah',
-    'America/North_Dakota/Center',
-    'America/North_Dakota/New_Salem'
+    'America/Kentucky/Louisville'
 ]
 
 
@@ -48,8 +30,8 @@ class TestGetCoordinates(object):
     def test_returns_coordinates_for_america_montreal(self) -> None:
         coordinates = get_coordinates('America/Montreal')
         expected_coordinates = Coordinates(
-            latitude=45.5017,
-            longitude=-73.5673
+            latitude=43.65,
+            longitude=-79.38333333333334
         )
         assert coordinates == expected_coordinates
 
